@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AppBuscaCep.Models
 {
-    internal class Bairro
+    public class Bairro
     {
+        public string descBairro { get; set; }
     }
 }
