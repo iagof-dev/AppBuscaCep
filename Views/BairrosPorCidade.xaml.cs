@@ -6,4 +6,14 @@ public partial class BairrosPorCidade : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void pck_estado_SelectedIndexChanged(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void pck_cidade_SelectedIndexChanged(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }

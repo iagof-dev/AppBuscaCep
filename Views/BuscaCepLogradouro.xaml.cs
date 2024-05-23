@@ -6,4 +6,9 @@ public partial class BuscaCepLogradouro : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Button_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }
