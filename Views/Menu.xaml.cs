@@ -7,13 +7,24 @@ public partial class Menu : ContentPage
 		InitializeComponent();
 	}
 
-    private void Button_Clicked(System.Object sender, System.EventArgs e)
+    private void btn_CEPBUSCA_Clicked(object sender, EventArgs e)
     {
+        Navigation.PushAsync(new MainPage());
+    }
+
+    private void btn_CIDADEbusca_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Views.BairrosPorCidade());
 
     }
 
-    private void Button_Clicked_1(System.Object sender, System.EventArgs e)
+    private void btn_RUABAIRRObusca_Clicked(object sender, EventArgs e)
     {
+        Navigation.PushAsync(new Views.BuscaCepLogradouro());
+    }
 
+    private void btn_CEPbusca_Clicked_1(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new MainPage());
     }
 }

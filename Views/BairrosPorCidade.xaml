@@ -24,7 +24,7 @@
 
             </StackLayout>
 
-            <ListView x:Name="lst_bairros">
+            <ListView x:Name="listview_bairros">
                 <ListView.Header>
                     <StackLayout>
                         <Label Text="Nome do Bairro:" />
